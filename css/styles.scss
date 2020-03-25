@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+$aside-width: 10vw;
+$body-margin-sides: 2vw;
+
+body {
+    margin: 2vh 2vw;
+    display: flex;
+}
+
+aside {
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+
+    > * {
+        margin-bottom: 1vh;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+
+        button {
+            width: 50px;
+            height: 50px;
+            outline: none;
+            border: none;
+            margin: 1vh .5vw 1vh 0;
+            background-color: #ECECEC;
+            border-radius: 50%;
+
+        }
+    }
+
+    #message {
+        color: gray;
+        text-align: center;
+    }
+
+    .star-stuff {
+        display: flex;
+        justify-content: center;
+
+        #star, #count {
+            padding: 4px 9px;
+            border-radius: 4px;
+            border: 1px solid #ECECEC;
+            margin: 0 2%;
+            outline: none;
+            user-select: none;
+
+        }
+    }
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 86vw;
+    // padding: 0 5vw;
+
+    .top-section {
+        display: flex;
+
+        > * {
+            width: 50%;
+        }   
+        
+        label {
+            text-align: right;
+        }
+
+        #order-selection {
+            margin-left: 2%;
+            border-radius: 4px;
+            border: 1px solid #ECECEC;
+            padding: .7% 0;
+            width: 15%;
+            outline: none;
+
+        }
+    }
+
+    .listings {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2vw;
+        row-gap: 7vh;
+        margin-top: 3vh;
+
+        .item {
+            // border: 1px solid gray;
+            text-align: center;
+
+            
+            .image {
+                position: relative;
+                height: 50vh;
+                background-color: wheat;
+                background-size: cover;
+                background-position: center 0;
+                
+                &::after {
+                    content: "Free shipping";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background-color: #000;
+                    color: #fff;
+                    font-size: .9em;
+                    width: 40%;
+                    padding: 2% 1%;
+
+    
+                }
+            }
+
+            .caption {
+                margin: 2vh 0;
+                font-weight: 500;
+            }
+
+            .bar {
+                border-bottom: 3px solid yellow;
+                margin: 0 auto;
+                width: 10%;
+            }
+
+            .price {
+                margin-top: 2vh;
+                font-weight: bold;
+                font-size: 1.2em;
+
+                small {
+                    font-size: .6em;
+                }
+            }
+
+            .discount {
+                color: gray;
+            }
+            
+            button {
+                width: 100%;
+                padding: 2vh 0;
+                margin-top: 3vh;
+                text-align: center;
+                background-color: #000;
+                color: #fff;
+                border: none;
+                outline: none;
+                // font-size: ;
+            }
+        }
+    }
+
+}

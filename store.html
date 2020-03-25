@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <!-- sizes section -->
+    <aside>
+        <h3>Sizes</h3>
+        <div class="buttons">
+            <button class="size">XS</button>
+            <button class="size">S</button>
+            <button class="size">M</button>
+            <button class="size">ML</button>
+            <button class="size">L</button>
+            <button class="size">XL</button>
+            <button class="size">XXL</button>
+
+        </div>
+        <p id="message">Leave a star on Github if this repository was useful</p>
+        <div class="star-stuff">
+            <button id="star"> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14.053" height="12.956" viewBox="0 0 14.053 12.956">
+                    <path id="Path_11" data-name="Path 11" d="M14962.708,1720.052l-1.8,4.584h-5.383l3.889,3.688-1.1,4.684,4.391-2.691,4.281,2.691-1-4.684,3.588-3.688h-4.984Z" transform="translate(-14955.528 -1720.051)"/>
+                  </svg>
+                  
+            </span> Star</button>
+            <div id="count">848</div>
+
+        </div>
+    </aside>
+    <main>
+        <div class="top-section">
+            <!-- nav bar sorta -->
+            <p>16 Product(s) found</p>
+            <label for="order-by">
+                Order by
+                <select name="" id="order-selection">
+                    <option value="">Size</option>
+                    <option value="">Gender</option>
+                    <option value="">Price</option>
+                </select>
+            </label>
+        </div>
+        <!-- 
+            item listings 
+        add remaining 15 items
+        -->
+        <section class="listings">
+            <div class="item">
+                <div class="image" style="background-image: url('./images/ian-dooley-wzRKn-AjKf4-unsplash.jpg');"></div>
+                <p class="caption">Cat Tee Black T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>10<small>.90</small></small></p>
+                <p class="discount">or 9 x $1.21</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Dark Thug Blue-Navy T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>29<small>.45</small></small></p>
+                <p class="discount">or 5 x $5.89</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Sphynx Tie Dye Wine T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>9<small>.00</small></small></p>
+                <p class="discount">or 3 x $3.0</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/ian-dooley-wzRKn-AjKf4-unsplash.jpg');"></div>
+                <p class="caption">Skul</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>14<small>.00</small></small></p>
+                <p class="discount">or 5 x $2.80</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/taylor-0RmYRuqDXpE-unsplash.jpg');"></div>
+                <p class="caption">Wine Skul T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>13<small>.25</small></small></p>
+                <p class="discount">or 3 x $4.42</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/eduardo-dutra-d37SgZe0-b0-unsplash.jpg');"></div>
+                <p class="caption">Cat Tee Black T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>10<small>.90</small></small></p>
+                <p class="discount">or 9 x $1.21</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/james-barr-NrUI1gjdcY4-unsplash.jpg');"></div>
+                <p class="caption">Sphynx Tie Dye Grey T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>10<small>.90</small></small></p>
+                <p class="discount">or 9 x $1.21</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Danger Knife Grey</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>14<small>.90</small></small></p>
+                <p class="discount">or 7 x $2.13</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/vinicius-henrique-FKeGskJ0Ivs-unsplash.jpg');"></div>
+                <p class="caption">White DGK Script Tee</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>14<small>.90</small></small></p>
+                <p class="discount">or 7 x $2.13</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Born On The Streets</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>25<small>.90</small></small></p>
+                <p class="discount">or 12 x $2.16</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Tso 3D Short Sleeve T-Shirt A</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>10<small>.90</small></small></p>
+                <p class="discount">or 9 x $1.21</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Man Tie Dye Cinza Grey T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>49<small>.90</small></small></p>
+                <p class="discount">&ThinSpace;</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Crazy Monkey Black T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>22<small>.50</small></small></p>
+                <p class="discount">or 4 x $5.63</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Tso 3D Black T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>18<small>.70</small></small></p>
+                <p class="discount">or 9 x $4.67</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">Crazy Monkey Grey</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>134<small>.90</small></small></p>
+                <p class="discount">or 5 x $26.98</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="item">
+                <div class="image" style="background-image: url('./images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg');"></div>
+                <p class="caption">On the Streets Black T-Shirt</p>
+                <div class="bar"></div>
+                <p class="price"><small>$</small>49<small>.00</small></small></p>
+                <p class="discount">or 9 x $5.44</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
